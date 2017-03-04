@@ -1,6 +1,6 @@
 #include "common.h"
-#include "includes/spidev.h"
-#include "includes/spi_enum.h"
+#include "spidev.h"
+#include "spi_enum.h"
 
 #define SPI_MAX_SPEED 25000000
 

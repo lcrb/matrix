@@ -1,5 +1,5 @@
 #include "common.h"
-#include "includes/i2c-dev.h"
+#include "i2c-dev.h"
     
 EXPORT int setI2CSlave(int fd, int slave) {
     clearLastError();

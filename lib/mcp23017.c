@@ -2,7 +2,7 @@
 #include "libfahw-mcp23017.h"
 #include "libfahw-filectl.h"
 #include "libfahw-i2c.h"
-#include "includes/i2c-dev.h"
+#include "i2c-dev.h"
 #include "common.h"
 
 static unsigned char  RS = 0x01;
