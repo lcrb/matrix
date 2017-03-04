@@ -195,7 +195,7 @@ struct i2c_rdwr_ioctl_data {
 	int nmsgs;		/* number of i2c_msgs */
 };
 
-#include "../common.h"
+#include "common.h"
 
 static inline __s32 i2c_smbus_access(int file, char read_write, __u8 command, 
                                      int size, union i2c_smbus_data *data)
